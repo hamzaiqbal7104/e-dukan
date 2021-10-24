@@ -2,12 +2,12 @@ import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import { ThemeProvider } from "@material-ui/core/styles";
 import theme from "./theme/theme";
-import Admin from "./Dashboard/Admin";
+import Admin from "./AdminDashboard/Admin";
 import Form from "./Form/Form";
 import Login from "./Form/Login";
 import Signup from "./Form/Signup";
-import Store from "./Store/Store";
-import Footer from "./Pages/Footer";
+import Store from "./Dashboard/Header/Store";
+import Footer from "./Dashboard/Header/Pages/Footer";
 
 function App() {
   return (

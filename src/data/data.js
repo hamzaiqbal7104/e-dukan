@@ -1,8 +1,8 @@
-const menu = [
+const menuItems = [
     {
       id: 1,
       title: "laptop",
-      category: "laptop",
+      category: "Grocery Item",
       price: 15.99,
       img: "../pics/l1.png",
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
@@ -10,7 +10,7 @@ const menu = [
     {
       id: 2,
       title: "mobile",
-      category: "mobile",
+      category: "Men's Accessories",
       price: 13.99,
       img: "../pics/m1.jpg",
       desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
@@ -18,7 +18,7 @@ const menu = [
     {
       id: 3,
       title: "tv",
-      category: "tv",
+      category: "Women's Accessories",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
@@ -27,7 +27,7 @@ const menu = [
     {
       id: 4,
       title: "tv",
-      category: "tv",
+      category: "Kid's Accessories",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
@@ -35,35 +35,43 @@ const menu = [
     {
       id: 5,
       title: "tv",
-      category: "tv",
+      category: "Computer Accessories",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
       id: 6,
-      title: "tv",
-      category: "tv",
+      title: "mobile",
+      category: "Mobile Accessories",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
       id: 7,
-      title: "tv",
-      category: "tv",
+      title: "laptop",
+      category: "Electronic Accessories",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
       id: 8,
-      title: "tv",
-      category: "tv",
+      title: "mobile",
+      category: "Sports Item",
+      price: 6.99,
+      img: "../pics/t1.jpg",
+      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+    },
+    {
+      id: 9,
+      title: "laptop",
+      category: "laptop",
       price: 6.99,
       img: "../pics/t1.jpg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
   ];
-  export default menu;
+  export default menuItems;
   
