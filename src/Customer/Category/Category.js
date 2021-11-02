@@ -25,7 +25,7 @@ function Products() {
             <Link to="/grocery"> <Radio.Button>Grocery</Radio.Button></Link>
             <Link to="/men"> <Radio.Button>Men</Radio.Button></Link>
             <Link to="/women"> <Radio.Button>Women</Radio.Button></Link>
-            <Link to="/kid"> <Radio.Button>Kid</Radio.Button></Link>
+            <Link to="/kid"> <Radio.Button>Kid's</Radio.Button></Link>
             <Link to="/mobile"> <Radio.Button>Mobile</Radio.Button></Link>
             <Link to="/computer"> <Radio.Button>Computer</Radio.Button></Link>
             <Link to="/electronic"> <Radio.Button>Electronic</Radio.Button></Link>
