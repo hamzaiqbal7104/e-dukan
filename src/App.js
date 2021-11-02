@@ -1,29 +1,25 @@
-import React from "react";
+import React from 'react';
+import './App.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import { ThemeProvider } from "@material-ui/core/styles";
-import theme from "./theme/theme";
-import Admin from "./AdminDashboard/Admin";
-import Form from "./Form/Form";
-import Login from "./Form/Login";
-import Signup from "./Form/Signup";
-import Store from "./Dashboard/Header/Store";
-import Footer from "./Dashboard/Header/Pages/Footer";
+import Form from "./Customer/Form/Form";
+import Admin from "./Dashboard/Admin";
+import Seller from "./Seller/Seller";
+import Customer from "./Customer/Customer";
 
-function App() {
+const App = () => {
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <BrowserRouter>
         <Switch>
-          <Route path="/" exact component={Form} />
-          <Route path="/signin" exact component={Login} />
-          <Route path="/signup" exact component={Signup} />
+          <Route path="/" exact component={Customer} />
+          <Route path="/seller" exact component={Seller} />
           <Route path="/admin" exact component={Admin} />
-          <Route path="/store" exact component={Store} />
         </Switch>
       </BrowserRouter>
-      <Footer />
-    </ThemeProvider>
+    </>
   );
 }
 
 export default App;
+
+  
