@@ -33,7 +33,7 @@ const AccountDetailsPage = () => {
             marginTop: 50,
           }}
         >
-          <Link to="/login">
+          <Link to="/admin/login">
             <Button 
               type="default" danger
             >

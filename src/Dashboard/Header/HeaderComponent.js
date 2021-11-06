@@ -60,23 +60,23 @@ function HeaderComponent() {
       <Box className={classes.wrapper}>
         <Switch>
           <Route path="/" exact component={Form} />
-          <Route path="/login" exact component={Login} />
-          <Route path="/signup" exact component={Signup} />
-          <Route path="/forgot" exact component={ForgotPassword} />
-          <Route path="/detail" exact component={AccountDetailsPage} />
-          <Route path="/adashboard" exact component={Dashboard} />
-          <Route path="/notification" exact component={Notification} />
-          <Route path="/message" exact component={Message} />
-          <Route path="/sales" exact component={Sales} />
-          <Route path="/products" exact component={Products} />
-          <Route path="/user" exact component={User} />
-          <Route path="/vendor" exact component={Vendor} />
-          <Route path="/products/add" exact component={AddNewProduct} />
+          <Route path="/admin/login" exact component={Login} />
+          <Route path="/admin/signup" exact component={Signup} />
+          <Route path="/admin/forgot" exact component={ForgotPassword} />
+          <Route path="/admin/detail" exact component={AccountDetailsPage} />
+          <Route path="/admin/dashboard" exact component={Dashboard} />
+          <Route path="/admin/notification" exact component={Notification} />
+          <Route path="/admin/message" exact component={Message} />
+          <Route path="/admin/sales" exact component={Sales} />
+          <Route path="/admin/products" exact component={Products} />
+          <Route path="/admin/user" exact component={User} />
+          <Route path="/admin/vendor" exact component={Vendor} />
+          <Route path="/admin/add/products" exact component={AddNewProduct} />
           <Route path="/products/:productId" exact component={SingleProduct} />
-          <Route path="/sales/add" exact component={AddNewSale} />
-          <Route path="/sales/:saleId" exact component={SingleSale} />
-          <Route path="/orders" exact component={Order} />
-          <Route path="/orders/add" exact component={AddOrder} />
+          <Route path="/admin/add/sales" exact component={AddNewSale} />
+          <Route path="/admin/sales/:saleId" exact component={SingleSale} />
+          <Route path="/admin/orders" exact component={Order} />
+          <Route path="/admin/add/orders" exact component={AddOrder} />
         </Switch>
       </Box>
     </div>

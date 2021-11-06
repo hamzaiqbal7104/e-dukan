@@ -126,13 +126,15 @@ function Products() {
           </Typography>
         </Grid>
         <Grid item>
-          <Link
+          {/* <Link
             to="/products/add"
             // to={`${url}/add`}
             style={{ textDecoration: "none" }}
-          >
+          > */}
             <Button
               variant="contained"
+              component={Link}
+              to="/admin/add/products"
               style={{
                 backgroundColor: "green",
                 color: "white",
@@ -141,7 +143,7 @@ function Products() {
             >
               Add New
             </Button>
-          </Link>
+          {/* </Link> */}
         </Grid>
       </Grid>
       <div className={classes.miandiv}>

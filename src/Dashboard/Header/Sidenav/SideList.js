@@ -45,36 +45,36 @@ const useStyles = makeStyles((theme) => ({
 function SideList({ handleDrawerClose }) {
   const classes = useStyles();
   const listitemdata = [
-    { label: "Home", Link: "/adashboard", icon: <FcHome size="2em" /> },
+    { label: "Home", Link: "/admin/dashboard", icon: <FcHome size="2em" /> },
     {
       label: "Products",
-      Link: "/products",
+      Link: "/admin/products",
       icon: <FaProductHunt size="2em" style={{ color: "green" }} />,
     },
     {
       label: "Sales",
-      Link: "/sales",
+      Link: "/admin/sales",
       icon: <FcSalesPerformance size="2em" />,
     },
-    { label: "Order", Link: "/orders", icon: <FcLike size="2em" /> },
+    { label: "Order", Link: "/admin/orders", icon: <FcLike size="2em" /> },
     {
       label: "Vendor",
-      Link: "/vendor",
+      Link: "/admin/vendor",
       icon: <FcConferenceCall size="2em" />,
     },
     {
       label: "Customer",
-      Link: "/user",
+      Link: "/admin/user",
       icon: <FcConferenceCall size="2em" />,
     },
     {
       label: "Message",
-      Link: "/message",
+      Link: "/admin/message",
       icon: <FcSms size="2em" />,
     },
     {
       label: "Notification",
-      Link: "/notification",
+      Link: "/admin/notification",
       icon: <FcInfo size="2em" />,
     },
   ];

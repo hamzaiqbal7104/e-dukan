@@ -104,15 +104,15 @@ function Login() {
             className={classes.btnStyle}
             fullWidth
             component={Link}
-            to="/adashboard"
+            to="/admin/dashboard"
           >
             Sign in
           </Button>
           <Typography>
-            <Link to="/forgot">Forgot password ?</Link>
+            <Link to="/admin/forgot">Forgot password ?</Link>
           </Typography>
           <Typography>
-            Do you have an account ?<Link to="/signup">Sign Up</Link>
+            Do you have an account ?<Link to="/admin/signup">Sign Up</Link>
           </Typography>
         </Paper>
       </Grid>

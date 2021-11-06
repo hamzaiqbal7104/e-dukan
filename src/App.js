@@ -5,6 +5,7 @@ import Form from "./Customer/Form/Form";
 import Admin from "./Dashboard/Admin";
 import Seller from "./Seller/Seller";
 import Customer from "./Customer/Customer";
+import AddProduct from "./Customer/AddProduct/AddProduct";
 
 const App = () => {
   return (

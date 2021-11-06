@@ -4,6 +4,7 @@ import { makeStyles } from "@material-ui/core";
 import { FcUpload } from "react-icons/fc";
 import { useForm, Controller } from "react-hook-form";
 import { useHistory } from "react-router";
+import { Link } from "react-router-dom";
 import DateFnsUtils from "@date-io/date-fns";
 import {
   MuiPickersUtilsProvider,
@@ -239,6 +240,8 @@ function AddNewProduct() {
                 </Grid>
                 <Grid item>
                   <Button
+                    component={Link}
+                    to="/admin/sales"
                     variant="contained"
                     color="secondary"
                     type="submit"

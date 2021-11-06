@@ -63,7 +63,7 @@ const ForgotPassword = () => {
                 </Typography>
                 <Form.Item>
                   <Grid>
-                    <Link to="/">
+                    <Link to="/admin/login">
                       <Button
                         type="primary"
                       >

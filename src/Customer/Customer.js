@@ -12,7 +12,6 @@ import Checkout from "./MyCartPage/Checkout";
 import ReviewOrder from "./MyCartPage/ReviewOrder";
 import OrdersPage from "./OrdersPage/OrdersPage";
 import SingleProduct from "./Products/SingleProduct";
-import CardPage from "./Products/CardPage";
 import Notification from "./NavbarPage/Notification";
 import Message from "./NavbarPage/Message";
 import About from "./NavbarPage/About";
@@ -25,6 +24,8 @@ import Mobile from "./Category/Pages/Mobile";
 import Computer from "./Category/Pages/Computer";
 import Electronic from "./Category/Pages/Electronic";
 import Sport from "./Category/Pages/Sport";
+import DailyDeals from "./Category/DailyDeals";
+import Suggested from "./Category/Suggested";
 
 
 const Customer = () => {
@@ -45,7 +46,6 @@ const Customer = () => {
           <Route path="/check" exact component={Checkout} />
           <Route path="/order" exact component={OrdersPage} />
           <Route path="/product" exact component={SingleProduct} />
-          <Route path="/card" exact component={CardPage} />
           <Route path="/notification" exact component={Notification} />
           <Route path="/message" exact component={Message} />
           <Route path="/about" exact component={About} />
@@ -58,6 +58,8 @@ const Customer = () => {
           <Route path="/computer" exact component={Computer} />
           <Route path="/electronic" exact component={Electronic} />
           <Route path="/sport" exact component={Sport} />
+          <Route path="/deals" exact component={DailyDeals} />
+          <Route path="/suggested" exact component={Suggested} />
         </Switch>
       </BrowserRouter>
     </>

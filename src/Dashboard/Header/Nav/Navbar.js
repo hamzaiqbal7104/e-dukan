@@ -13,7 +13,6 @@ import {
   Grid,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
-import Profile from "./profile";
 import MenuIcon from "@material-ui/icons/Menu";
 import MailOutlineIcon from "@material-ui/icons/MailOutline";
 import NotificationsNoneIcon from "@material-ui/icons/NotificationsNone";
@@ -42,7 +41,7 @@ function Navbar({ handleDrawerToggle }) {
         <Hidden smDown>
           <Box style={{ display: "flex" }}>
             <Grid item>
-              <Link to="/message" style={{ textDecoration: "none" }}>
+              <Link to="/admin/message" style={{ textDecoration: "none" }}>
                 <IconButton aria-controls="simple-menu" aria-haspopup="true">
                   <Badge badgeContent={4} color="secondary">
                     <MailOutlineIcon
@@ -54,7 +53,7 @@ function Navbar({ handleDrawerToggle }) {
               </Link>
             </Grid>
             <Grid item>
-              <Link to="/notification" style={{ textDecoration: "none" }}>
+              <Link to="/admin/notification" style={{ textDecoration: "none" }}>
                 <IconButton aria-controls="simple-menu" aria-haspopup="true">
                   <Badge badgeContent={4} color="secondary">
                     <NotificationsNoneIcon
@@ -66,7 +65,7 @@ function Navbar({ handleDrawerToggle }) {
               </Link>
             </Grid>
             <Grid item>
-              <Link to="/detail" style={{ textDecoration: "none" }}>
+              <Link to="/admin/detail" style={{ textDecoration: "none" }}>
                 <Button
                   aria-controls="simple-menu"
                   aria-haspopup="true"

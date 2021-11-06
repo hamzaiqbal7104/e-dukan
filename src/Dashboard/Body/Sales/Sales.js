@@ -100,11 +100,11 @@ function Sales() {
               <DeleteOutlineIcon style={{ color: "red", marginRight: "5px" }} />
             </Button>
 
-            <Link to={`${url}/:saleId` + params.row.id}>
+            {/* <Link to={`` + params.row.id}> */}
               <Button variant="contained">
                 <EditIcon style={{ color: "blue", cursor: "pointer" }} />
               </Button>
-            </Link>
+            {/* </Link> */}
           </>
         );
       },
@@ -126,9 +126,14 @@ function Sales() {
           </Typography>
         </Grid>
         <Grid item>
-          <Link to={`${url}/add`} style={{ textDecoration: "none" }}>
+          {/* <Link 
+            to= "/admin/add/sales"
+            style={{ textDecoration: "none" }}
+          > */}
             <Button
               variant="contained"
+              component={Link}
+              to="/admin/add/sales"
               style={{
                 backgroundColor: "green",
                 color: "white",
@@ -137,7 +142,7 @@ function Sales() {
             >
               Add Sale
             </Button>
-          </Link>
+          {/* </Link> */}
         </Grid>
       </Grid>
       <div className={classes.miandiv}>

@@ -195,6 +195,84 @@ function Products() {
               </Grid>
             </Grid>
           </div>
+          <div>
+            <Grid item className={classes.gridback}>
+              <Grid container direction="column" alignItems="center">
+                <Grid item>
+                  <img
+                    className={classes.itemimg}
+                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt=""
+                  />
+                </Grid>
+                <Grid container direction="row" justifyContent="space-around">
+                  <Grid item>
+                    <h4>Laptop</h4>
+                  </Grid>
+                  <Grid item>
+                    <p>Rs. 100}</p>
+                  </Grid>
+                </Grid>
+                <Grid item>
+                  <Button
+                    className={classes.btn}
+                    component={Link}
+                    to="/product"
+                    variant="contained"
+                  >
+                    View
+                  </Button>
+                  <Button
+                    className={classes.btn}
+                    component={Link}
+                    to="/cart"
+                    variant="contained"
+                  >
+                    <AddShoppingCartIcon />
+                  </Button>
+                </Grid>
+              </Grid>
+            </Grid>
+          </div>
+          <div>
+            <Grid item className={classes.gridback}>
+              <Grid container direction="column" alignItems="center">
+                <Grid item>
+                  <img
+                    className={classes.itemimg}
+                    src="https://gw.alipayobjects.com/zos/rmsportal/JiqGstEfoWAOHiTxclqi.png"
+                    alt=""
+                  />
+                </Grid>
+                <Grid container direction="row" justifyContent="space-around">
+                  <Grid item>
+                    <h4>Laptop</h4>
+                  </Grid>
+                  <Grid item>
+                    <p>Rs. 100}</p>
+                  </Grid>
+                </Grid>
+                <Grid item>
+                  <Button
+                    className={classes.btn}
+                    component={Link}
+                    to="/product"
+                    variant="contained"
+                  >
+                    View
+                  </Button>
+                  <Button
+                    className={classes.btn}
+                    component={Link}
+                    to="/cart"
+                    variant="contained"
+                  >
+                    <AddShoppingCartIcon />
+                  </Button>
+                </Grid>
+              </Grid>
+            </Grid>
+          </div>
         </Grid>
       </Hidden>
     </Layout>

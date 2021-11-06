@@ -146,7 +146,7 @@ function Signup() {
               type="submit"
               variant="contained"
               component={Link}
-              to="/login"
+              to="/admin/login"
             >
               Sign up
             </Button>
